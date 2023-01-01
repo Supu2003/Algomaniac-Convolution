@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto' !important;
+}
+.algo_nav_color{
+    background-color: #282828 !important;
+}
+.nav-link{
+    color: #b4b4a9!important;
+}
+.nav-link:hover{
+    color: #fff!important;    
+}
+.active{
+    color: #fff!important;
+}
+.dropdown_nav{
+    color: #b4b4a9;
+    gap: 0.35rem;
+}
+.dropdown_nav:hover{
+    background-color: #474646;
+    color: #b4b4a9;
+}
+.algo_dropdown{
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.algo_nav_li{
+    margin-right: 20px;
+}
+@media (min-width:1000px){
+    .algo_nav_center{
+        max-width: 72rem;
+        margin:0 auto;
+    }
+}
